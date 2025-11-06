@@ -1,0 +1,343 @@
+[
+  {
+    "@timestamp": "2024-11-06T10:15:23.456Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:24.123Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:25.789Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:26.234Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:27.567Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:28.890Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:29.123Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:30.456Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:31.789Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T10:15:32.234Z",
+    "src_ip": "203.0.113.45",
+    "dst_ip": "10.0.0.50",
+    "user": "admin",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid password attempt"
+  },
+  {
+    "@timestamp": "2024-11-06T11:30:15.123Z",
+    "src_ip": "198.51.100.25",
+    "dst_ip": "10.0.0.100",
+    "user": "root",
+    "event_type": "failed_login",
+    "action": "ssh_login",
+    "status": "failed",
+    "message": "Authentication failed for root"
+  },
+  {
+    "@timestamp": "2024-11-06T11:30:16.456Z",
+    "src_ip": "198.51.100.25",
+    "dst_ip": "10.0.0.100",
+    "user": "root",
+    "event_type": "failed_login",
+    "action": "ssh_login",
+    "status": "failed",
+    "message": "Authentication failed for root"
+  },
+  {
+    "@timestamp": "2024-11-06T11:30:17.789Z",
+    "src_ip": "198.51.100.25",
+    "dst_ip": "10.0.0.100",
+    "user": "root",
+    "event_type": "failed_login",
+    "action": "ssh_login",
+    "status": "failed",
+    "message": "Authentication failed for root"
+  },
+  {
+    "@timestamp": "2024-11-06T12:45:30.234Z",
+    "src_ip": "192.168.1.150",
+    "dst_ip": "10.0.0.25",
+    "user": "user1",
+    "event_type": "privilege_escalation",
+    "action": "sudo",
+    "status": "success",
+    "message": "User attempted to escalate privileges"
+  },
+  {
+    "@timestamp": "2024-11-06T12:45:35.567Z",
+    "src_ip": "192.168.1.150",
+    "dst_ip": "10.0.0.25",
+    "user": "user1",
+    "event_type": "privilege_escalation",
+    "action": "sudo_cat",
+    "status": "success",
+    "message": "User accessed /etc/shadow with sudo"
+  },
+  {
+    "@timestamp": "2024-11-06T13:20:10.890Z",
+    "src_ip": "172.16.0.50",
+    "dst_ip": "10.0.0.200",
+    "user": "service_account",
+    "event_type": "unauthorized_access",
+    "action": "file_access",
+    "status": "denied",
+    "message": "Access denied to /var/www/admin/config.php"
+  },
+  {
+    "@timestamp": "2024-11-06T13:20:15.123Z",
+    "src_ip": "172.16.0.50",
+    "dst_ip": "10.0.0.200",
+    "user": "service_account",
+    "event_type": "unauthorized_access",
+    "action": "file_access",
+    "status": "denied",
+    "message": "Access denied to /var/www/admin/config.php"
+  },
+  {
+    "@timestamp": "2024-11-06T14:10:45.456Z",
+    "src_ip": "10.0.0.150",
+    "dst_ip": "10.0.0.1",
+    "user": "system",
+    "event_type": "malware_detection",
+    "action": "file_scan",
+    "status": "threat_detected",
+    "message": "Malware detected: trojan.exe"
+  },
+  {
+    "@timestamp": "2024-11-06T15:30:20.789Z",
+    "src_ip": "203.0.113.100",
+    "dst_ip": "10.0.0.50",
+    "user": "administrator",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid credentials"
+  },
+  {
+    "@timestamp": "2024-11-06T15:30:21.234Z",
+    "src_ip": "203.0.113.100",
+    "dst_ip": "10.0.0.50",
+    "user": "administrator",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid credentials"
+  },
+  {
+    "@timestamp": "2024-11-06T15:30:22.567Z",
+    "src_ip": "203.0.113.100",
+    "dst_ip": "10.0.0.50",
+    "user": "administrator",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Invalid credentials"
+  },
+  {
+    "@timestamp": "2024-11-06T16:00:15.890Z",
+    "src_ip": "198.51.100.75",
+    "dst_ip": "10.0.0.75",
+    "user": "guest",
+    "event_type": "unauthorized_access",
+    "action": "database_query",
+    "status": "denied",
+    "message": "Unauthorized SQL query attempt: SELECT * FROM users"
+  },
+  {
+    "@timestamp": "2024-11-06T16:00:20.123Z",
+    "src_ip": "198.51.100.75",
+    "dst_ip": "10.0.0.75",
+    "user": "guest",
+    "event_type": "unauthorized_access",
+    "action": "database_query",
+    "status": "denied",
+    "message": "SQL injection attempt detected: ' OR '1'='1"
+  },
+  {
+    "@timestamp": "2024-11-06T17:15:30.456Z",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "user": "admin",
+    "event_type": "account_manipulation",
+    "action": "password_change",
+    "status": "success",
+    "message": "Password changed for admin account"
+  },
+  {
+    "@timestamp": "2024-11-06T17:15:35.789Z",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "user": "admin",
+    "event_type": "account_manipulation",
+    "action": "permission_change",
+    "status": "success",
+    "message": "User permissions modified"
+  },
+  {
+    "@timestamp": "2024-11-06T18:20:10.234Z",
+    "src_ip": "172.16.0.100",
+    "dst_ip": "10.0.0.150",
+    "user": "user2",
+    "event_type": "data_exfiltration",
+    "action": "data_export",
+    "status": "success",
+    "message": "Large data export initiated: 2.5GB"
+  },
+  {
+    "@timestamp": "2024-11-06T18:20:15.567Z",
+    "src_ip": "172.16.0.100",
+    "dst_ip": "10.0.0.150",
+    "user": "user2",
+    "event_type": "data_exfiltration",
+    "action": "file_download",
+    "status": "success",
+    "message": "Downloaded customer_database.csv"
+  },
+  {
+    "@timestamp": "2024-11-06T19:00:45.890Z",
+    "src_ip": "203.0.113.200",
+    "dst_ip": "10.0.0.50",
+    "user": "test",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Account locked after multiple failed attempts"
+  },
+  {
+    "@timestamp": "2024-11-06T19:00:46.123Z",
+    "src_ip": "203.0.113.200",
+    "dst_ip": "10.0.0.50",
+    "user": "test",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Account locked after multiple failed attempts"
+  },
+  {
+    "@timestamp": "2024-11-06T19:00:47.456Z",
+    "src_ip": "203.0.113.200",
+    "dst_ip": "10.0.0.50",
+    "user": "test",
+    "event_type": "failed_login",
+    "action": "login",
+    "status": "failed",
+    "message": "Account locked after multiple failed attempts"
+  },
+  {
+    "@timestamp": "2024-11-06T20:30:20.789Z",
+    "src_ip": "192.168.1.75",
+    "dst_ip": "172.16.0.1",
+    "user": null,
+    "event_type": "suspicious_network",
+    "action": "network_scan",
+    "status": "detected",
+    "message": "Port scan detected from 192.168.1.75"
+  },
+  {
+    "@timestamp": "2024-11-06T20:30:25.234Z",
+    "src_ip": "192.168.1.75",
+    "dst_ip": "172.16.0.1",
+    "user": null,
+    "event_type": "suspicious_network",
+    "action": "network_scan",
+    "status": "detected",
+    "message": "Multiple connection attempts to closed ports"
+  },
+  {
+    "@timestamp": "2024-11-06T21:15:10.567Z",
+    "src_ip": "198.51.100.150",
+    "dst_ip": "10.0.0.100",
+    "user": "backup_user",
+    "event_type": "anomalous_activity",
+    "action": "database_query",
+    "status": "suspicious",
+    "message": "Unusual database query pattern detected"
+  },
+  {
+    "@timestamp": "2024-11-06T21:15:15.890Z",
+    "src_ip": "198.51.100.150",
+    "dst_ip": "10.0.0.100",
+    "user": "backup_user",
+    "event_type": "anomalous_activity",
+    "action": "bulk_data_access",
+    "status": "suspicious",
+    "message": "Accessing large volumes of data outside normal hours"
+  }
+]
+

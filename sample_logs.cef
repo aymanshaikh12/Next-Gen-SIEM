@@ -1,0 +1,5 @@
+CEF:0|Security|ThreatManager|1.0|100|worm successfully stopped|10|src=10.0.0.1 dst=2.1.2.2 spt=1232
+CEF:0|Firewall|CheckPoint|1.0|200|Failed login attempt|5|src=192.168.1.100 dst=10.0.0.50 dpt=22 suser=admin
+CEF:0|IDS|Snort|1.0|300|Unauthorized access attempt|7|src=203.0.113.45 dst=10.0.0.100 act=blocked
+CEF:0|WebServer|Apache|1.0|400|SQL injection attempt|8|src=198.51.100.10 dst=10.0.0.200 dpt=80 cs1=POST
+

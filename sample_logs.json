@@ -1,0 +1,93 @@
+[
+  {
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.100",
+    "destination_ip": "10.0.0.50",
+    "username": "admin",
+    "action": "login",
+    "status": "failed",
+    "timestamp": "2024-01-15T10:30:00"
+  },
+  {
+    "event_type": "unauthorized_access",
+    "source_ip": "203.0.113.45",
+    "destination_ip": "10.0.0.100",
+    "username": "guest",
+    "action": "file_access",
+    "status": "denied",
+    "timestamp": "2024-01-15T11:15:00"
+  },
+  {
+    "event_type": "privilege_escalation",
+    "source_ip": "192.168.1.50",
+    "destination_ip": "10.0.0.25",
+    "username": "user1",
+    "action": "sudo",
+    "status": "success",
+    "timestamp": "2024-01-15T12:00:00"
+  },
+  {
+    "event_type": "data_exfiltration",
+    "source_ip": "198.51.100.10",
+    "destination_ip": "10.0.0.200",
+    "username": "service_account",
+    "action": "data_export",
+    "status": "success",
+    "timestamp": "2024-01-15T13:30:00"
+  },
+  {
+    "event_type": "suspicious_network",
+    "source_ip": "192.168.1.75",
+    "destination_ip": "172.16.0.1",
+    "username": null,
+    "action": "network_scan",
+    "status": "detected",
+    "timestamp": "2024-01-15T14:00:00"
+  },
+  {
+    "event_type": "malware_detection",
+    "source_ip": "10.0.0.150",
+    "destination_ip": "10.0.0.1",
+    "username": "system",
+    "action": "file_scan",
+    "status": "threat_detected",
+    "timestamp": "2024-01-15T15:00:00"
+  },
+  {
+    "event_type": "account_manipulation",
+    "source_ip": "192.168.1.200",
+    "destination_ip": "10.0.0.10",
+    "username": "admin",
+    "action": "password_change",
+    "status": "success",
+    "timestamp": "2024-01-15T16:00:00"
+  },
+  {
+    "event_type": "normal_login",
+    "source_ip": "192.168.1.25",
+    "destination_ip": "10.0.0.50",
+    "username": "user2",
+    "action": "login",
+    "status": "success",
+    "timestamp": "2024-01-15T17:00:00"
+  },
+  {
+    "event_type": "failed_login",
+    "source_ip": "203.0.113.100",
+    "destination_ip": "10.0.0.50",
+    "username": "root",
+    "action": "login",
+    "status": "failed",
+    "timestamp": "2024-01-15T18:00:00"
+  },
+  {
+    "event_type": "anomalous_activity",
+    "source_ip": "192.168.1.150",
+    "destination_ip": "10.0.0.75",
+    "username": "user3",
+    "action": "database_query",
+    "status": "suspicious",
+    "timestamp": "2024-01-15T19:00:00"
+  }
+]
+

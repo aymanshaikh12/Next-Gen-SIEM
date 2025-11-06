@@ -1,0 +1,7 @@
+timestamp,event_type,source_ip,destination_ip,username,action,status
+2024-10-15T10:30:00Z,failed_login,192.168.1.100,10.0.0.50,admin,login,failed
+2024-10-15T11:15:00Z,unauthorized_access,203.0.113.45,10.0.0.100,guest,file_access,denied
+2024-10-15T12:00:00Z,privilege_escalation,192.168.1.50,10.0.0.25,user1,sudo,success
+2024-10-15T13:30:00Z,data_exfiltration,198.51.100.10,10.0.0.200,service_account,data_export,success
+2024-10-15T14:00:00Z,suspicious_network,192.168.1.75,172.16.0.1,,network_scan,detected
+
