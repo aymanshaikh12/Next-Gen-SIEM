@@ -21,7 +21,12 @@ yarn-debug.log*
 yarn-error.log*
 
 # IDE
-.vscode/
+# Allow VS Code workspace settings to be shared
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
