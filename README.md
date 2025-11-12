@@ -4,33 +4,33 @@ Enterprise-grade Security Information and Event Management (SIEM) platform with 
 
 ## Features
 
-✅ **Log Ingestion**
+ **Log Ingestion**
 - Single log upload via REST API
 - Bulk JSON/NDJSON file upload
 - Automatic normalization and enrichment
 
-✅ **Log Processing Pipeline**
+ **Log Processing Pipeline**
 - Normalization into standard schema
 - Enrichment: geo-IP lookup, user risk scoring, asset criticality
 - SQLite storage with optimized indexing
 
-✅ **Alert Generation**
+ **Alert Generation**
 - Rule-based correlation engine
 - MITRE ATT&CK Technique ID mapping
 - Severity classification (low, medium, high, critical)
 
-✅ **AI-Powered Alert Triage**
+ **AI-Powered Alert Triage**
 - AI scoring (0-100) for each alert
 - Automatic suppression of low-risk alerts
 - Analyst feedback system (true_positive/false_positive)
 - Feedback tracking for model improvement
 
-✅ **SOAR Automation**
+ **SOAR Automation**
 - Block IP addresses
 - Disable user accounts
 - Send security notifications
 
-✅ **Dashboard & Analytics**
+ **Dashboard & Analytics**
 - Real-time dashboard with auto-refresh
 - Pie chart: event types distribution
 - Bar chart: daily log counts
@@ -52,47 +52,7 @@ Enterprise-grade Security Information and Event Management (SIEM) platform with 
 - **HTTP Client**: Axios
 - **Routing**: React Router
 
-## Project Structure
 
-```
-NEXTGEN_SIEM_2.0/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py              # FastAPI application
-│   │   ├── database.py          # Database configuration
-│   │   ├── models.py            # SQLAlchemy models
-│   │   ├── schemas.py           # Pydantic schemas
-│   │   ├── routers/
-│   │   │   ├── logs.py          # Log ingestion endpoints
-│   │   │   ├── alerts.py        # Alert management endpoints
-│   │   │   ├── soar.py          # SOAR automation endpoints
-│   │   │   └── dashboard.py     # Dashboard statistics
-│   │   └── services/
-│   │       ├── log_processor.py # Log normalization
-│   │       ├── enrichment.py    # Geo-IP, risk scoring
-│   │       ├── alert_engine.py  # Correlation engine
-│   │       └── ai_scorer.py     # AI scoring & suppression
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Dashboard.tsx    # Main dashboard
-│   │   │   ├── Alerts.tsx       # Alerts table
-│   │   │   ├── UploadLogs.tsx   # Log upload page
-│   │   │   └── SOAR.tsx         # SOAR actions
-│   │   ├── services/
-│   │   │   └── api.ts           # API client
-│   │   ├── App.tsx
-│   │   ├── App.css
-│   │   ├── main.tsx
-│   │   └── index.css
-│   ├── package.json
-│   └── vite.config.ts
-├── sample_logs.json             # Sample JSON logs
-├── sample_logs.ndjson           # Sample NDJSON logs
-└── README.md
-```
 
 ## Installation & Setup
 
@@ -149,11 +109,8 @@ The frontend will be available at `http://localhost:5173`
 
 ## Usage
 
-### 1. Access the Dashboard
 
-Open your browser and navigate to `http://localhost:5173`
-
-### 2. Upload Logs
+### 1. Upload Logs
 
 **Option A: Bulk Upload (JSON/NDJSON)**
 1. Go to the "Upload Logs" page
@@ -171,18 +128,7 @@ Open your browser and navigate to `http://localhost:5173`
    - Status: e.g., `failed`
 3. Click "Ingest Log"
 
-**Option C: REST API**
-```bash
-curl -X POST "http://localhost:8000/api/logs/ingest" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.100",
-    "username": "admin",
-    "action": "login",
-    "status": "failed"
-  }'
-```
+
 
 ### 3. View Alerts
 
@@ -215,22 +161,6 @@ The dashboard provides:
 - Daily log counts (bar chart)
 - Recent logs table with filters
 
-## API Endpoints
-
-### Logs
-- `POST /api/logs/ingest` - Ingest single log
-- `POST /api/logs/upload` - Upload bulk logs (JSON/NDJSON)
-- `GET /api/logs` - Get logs with filters
-
-### Alerts
-- `GET /api/alerts` - Get alerts with filters
-- `POST /api/alerts/{alert_id}/feedback` - Submit analyst feedback
-
-### Dashboard
-- `GET /api/dashboard/stats` - Get dashboard statistics
-
-### SOAR
-- `POST /api/soar/execute` - Execute SOAR action
 
 ## Database Schema
 
